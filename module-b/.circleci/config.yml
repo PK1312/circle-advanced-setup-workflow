@@ -20,7 +20,7 @@ jobs:
     docker:
       - image: alpine
     steps:
-      - run: echo 'Another job for B! :3'
+      - run: echo 'Another job in B! :3'
 
 workflows:
   module-b-workflow-x:
@@ -36,3 +36,5 @@ workflows:
     jobs:
       - module-b-hello-build/hello-build
       #test
+
+# VS Code Extension Version: 1.1.1
